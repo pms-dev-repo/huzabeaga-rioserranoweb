@@ -1,0 +1,3 @@
+import React from 'react'
+const Svg = () => <svg xmlns="http://www.w3.org/2000/svg"  width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor"><defs><clipPath id="a"><rect width="24" height="24" fill="none"/></clipPath></defs><g clipPath="url(#a)"><rect width="24" height="24" fill="rgba(255,255,255,0)"/><path d="M11.17,18.082a.5.5,0,0,1,0,.71l-1.06,1.06a.48.48,0,0,1-.7,0L.22,10.662a.75.75,0,0,1-.22-.53v-.26a.75.75,0,0,1,.22-.53L9.41.152a.48.48,0,0,1,.7,0l1.06,1.06a.5.5,0,0,1,0,.71L3.09,10Z" transform="translate(6 1.998)"/></g></svg>
+export default Svg;

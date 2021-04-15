@@ -1,0 +1,113 @@
+.DateRangePicker_picker{
+  z-index: 9999;
+}
+
+.DateRangePickerInput_arrow{
+  display: none;
+}
+.DateRangePickerInput{
+  width: 100%;
+}
+.DateRangePicker{
+  width: 100%;
+  
+}
+
+.Pmodal {
+  @media (max-width: 999px) {
+    .DayPicker{
+      background-color:  #302D2A;
+      .DayPicker__horizontal {
+        background: #302D2A;
+      }
+      .CalendarMonthGrid {
+        background: #302D2A;
+      }
+      .CalendarMonth {
+        background: #302D2A;
+      }
+      .DayPickerNavigation_button__default {
+        border: 1px solid #302D2A;
+        background: #302D2A;
+      }
+      .CalendarMonth_caption {
+        color: #ffffff
+      }
+      .DayPickerNavigation_svg__horizontal {
+        fill: #ffffff
+      }
+      .DayPicker_weekHeader {
+        color: #ffffff
+      }
+      .CalendarDay{
+        &:focus, &.focus, &:hover{
+          box-shadow: 0px;
+        }
+      }
+      .CalendarDay__blocked_out_of_range, .CalendarDay__blocked_out_of_range:active, .CalendarDay__blocked_out_of_range:hover {
+        background: #302D2A !important;
+        border: 1px solid #4a4a4a !important;
+        color: #4a4a4a !important;
+      }
+      .CalendarDay__default {
+        border: 1px solid #4a4a4a;
+        color: #ffffff;
+        background: #302D2A;
+      }
+      .CalendarDay__selected {
+        background: #833832;
+        border: 1px double #833832;
+        color: #fff;
+      }
+      .CalendarDay__selected_span {
+        background: #a2544c;
+        border: 1px double #a2544c;
+        color: #fff;
+      }
+    }
+  } 
+}
+
+.DateInput {
+  width: 180px;
+  border: 1px solid #302D2A;
+  input{
+    height: 48px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  @media (max-width: 999px) {
+    width: 130px;
+  }
+}
+.DateRangePickerInput_arrow + .DateInput{
+  margin-left: -1px;
+}
+.DateInput_input__focused{
+  border: 0;
+}
+.CalendarDay__selected{
+  background: #833832;
+  border: 1px double #833832;
+  color: #fff;
+  &_span{
+    background: #a2544c;
+    border: 1px double #a2544c;
+    color: #fff;
+    &:active, &:hover{
+      background: #a2544c !important;
+      border: 1px double #a2544c !important;
+      color: #fff !important;
+    }
+  }
+  
+}
+.CalendarDay__hovered{
+  &_span,
+  &_span:hover{
+    background: #e8b6b1;
+    border: 1px double #e8b6b1;
+    color: #833832;
+  }
+}

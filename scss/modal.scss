@@ -1,0 +1,316 @@
+
+.Poverlay{
+  overflow: hidden;
+  background-color: rgba(48, 45, 42, 0.75);
+  @media (max-width: 999px) {
+    background-color: rgba(48, 45, 42, 0.5) !important;
+  }
+}
+
+.PmodalCalendar {
+  transition: transform 0.3s, opacity 0.3s;
+  position: fixed;
+  z-index: 999999!important;
+  top: 50%;
+  left: 50%;
+  transform: perspective(1px) translate3d(-50%, -50%, 0);
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  @media (max-width: 999px) {
+    transform: perspective(1px) translate3d(-50%, -50%, 0);
+  }
+}
+
+.Pmodal {
+  transition: transform 0.3s, opacity 0.3s;
+  position: fixed;
+  z-index: 999999!important;
+  top: 50%;
+  left: 50%;
+  transform: perspective(1px) translate3d(-50%, -50%, 0);
+  max-width: 940px;
+  width: 940px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+
+  @media (min-width: 1700px) {
+    width: 1600px;
+    max-width: 1600px;
+  }
+  
+  &-content-video{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    &-wrapper{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    @media (min-width: 1700px) {
+      width: 1440px;
+      max-width: 1440px;
+    }
+  }
+  &-content{
+    padding: 144px;
+  }
+  &-title{
+    font-size: 32px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 300;
+    color: #302D2A;
+  }
+  &-text{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+    color: #302D2A;
+  }
+
+  #CloseIconVideo{
+    position: absolute;
+    top: -36px;
+    right: -36px;
+    .PcloseIcon{
+      fill: #ffffff;
+      @media (max-width: 999px) {
+        fill: #ffffff;
+      }
+    }
+  }
+  
+  @media (max-width: 999px) {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: perspective(1px) translate3d(0, -0, 0);
+    width: 100%;
+    max-width: 100%;
+    background: #302D2A;
+    &-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      height: 100%;
+      flex-direction: column;
+
+      max-width: 500px;
+      margin: auto
+    }
+    &-title{
+      font-size: 24px;
+      margin-bottom: 24px;
+      color: #ffffff
+    }
+    &-text{
+      color: #ffffff;
+    }
+  }
+  @media (max-width: 767px) {
+    &-title{
+      font-size: 16px;
+      margin-bottom: 16px;
+      letter-spacing: 4px;
+      color: #ffffff
+    }
+    &-text{
+      font-size: 12px;
+    }
+  }
+}
+
+
+.PtransitionEnter {
+  &.Poverlay{
+    opacity: 0;
+    /* transition: transform 0.3s, opacity 0.3s; */
+  }
+  .Pmodal{
+   transform: translate3d(-50% , 200%, 0);
+   @media (max-width: 999px) {
+    transform: translate3d(100% , 0%, 0);
+   }
+  }
+  .PmodalCalendar{
+    transform: translate3d(-50% , 200%, 0);
+    @media (max-width: 999px) {
+      transform: translate3d(-50% , 200%, 0);
+     }
+  }
+}
+.PtransitionEnterActive {
+  &.Poverlay{
+    opacity: 1;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  .Pmodal{
+    transform: translate3d(-50% , -50%, 0);
+    @media (max-width: 999px) {
+      transform: translate3d(0% , 0%, 0);
+     }
+  }
+   .PmodalCalendar{
+    transform: translate3d(-50% , -50%, 0);
+    @media (max-width: 999px) {
+      transform: translate3d(-50% , -50%, 0);
+    }
+  }
+}
+.PtransitionExit {
+  &.Poverlay{
+    opacity: 0.01;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  .Pmodal{
+    transform: translate3d(-50% , 100%, 0);
+    @media (max-width: 999px) {
+      transform: translate3d(100% , 0%, 0);
+     }
+  }
+  .PmodalCalendar{
+    transform: translate3d(-50% , 100%, 0);
+    @media (max-width: 999px) {
+      transform: translate3d(-50% , 100%, 0);
+    }
+  }
+}
+.PtransitionExitActive {
+  .Pmodal{
+    transform: translate3d(-50% , 100%, 0);
+    @media (max-width: 999px) {
+      transform: translate3d(100% , 0%, 0);
+     }
+  }
+ .PmodalCalendar{
+    transform: translate3d(-50% , 100%, 0);
+    @media (max-width: 999px) {
+      transform: translate3d(-50% , 100%, 0);
+    }
+  }
+  &.Poverlay{
+    opacity: 0.01;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+}
+
+.PcloseIcon{
+  fill: #302D2A;
+  @media (max-width: 999px) {
+    fill: #ffffff;
+  }
+}
+
+
+
+
+.PmodalCovid {
+  transition: transform 0.3s, opacity 0.3s;
+  position: fixed;
+  z-index: 999999!important;
+  top: 50%;
+  left: 50%;
+  transform: perspective(1px) translate3d(-50%, -50%, 0);
+  max-width: 720px;
+  width: 720px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+
+  @media (min-width: 1700px) {
+    width: 720px;
+    max-width: 720px;
+  }
+  
+  &-content{
+    padding: 80px;
+  }
+  &-title{
+    font-size: 32px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 300;
+    color: #302D2A;
+  }
+  &-text{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+    color: #302D2A;
+  }
+  &-text + &-text {
+    margin-top: 16px;
+  }
+
+  #CloseIconVideo{
+    position: absolute;
+    top: -36px;
+    right: -36px;
+    .PcloseIcon{
+      fill: #ffffff;
+      @media (max-width: 999px) {
+        fill: #ffffff;
+      }
+    }
+  }
+  
+  @media (max-width: 999px) {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: perspective(1px) translate3d(0, -0, 0);
+    width: 90%;
+    height: 70%;
+    max-width: 100%;
+    background: #302D2A;
+    &-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      height: 100%;
+      flex-direction: column;
+
+      max-width: 500px;
+      margin: auto
+    }
+    &-title{
+      font-size: 24px;
+      margin-bottom: 24px;
+      color: #ffffff
+    }
+    &-text{
+      color: #ffffff;
+    }
+  }
+  // @media (max-width: 767px) {
+  //   &-title{
+  //     font-size: 16px;
+  //     margin-bottom: 16px;
+  //     letter-spacing: 4px;
+  //     color: #ffffff
+  //   }
+  //   &-text{
+  //     font-size: 12px;
+  //   }
+  // }
+}
