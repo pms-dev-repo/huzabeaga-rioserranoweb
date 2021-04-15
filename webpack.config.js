@@ -12,8 +12,8 @@ const PATHS = {
 }
 
 const devMode = process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'buildDev'
-const cssDev = ['style-loader', 'css-loader', { loader: 'sass-loader' }];
-const cssProd =  [MiniCssExtractPlugin.loader, 'css-loader', { loader: 'sass-loader' }]
+const cssDev = ['style-loader', 'css-loader', { loader: 'sass-loader', options: { implementation: require('sass') } }];
+const cssProd =  [MiniCssExtractPlugin.loader, 'css-loader', { loader: 'sass-loader', options: { implementation: require('sass') } }]
 const cssConfig = devMode ? cssProd : cssDev;
 
 module.exports = {

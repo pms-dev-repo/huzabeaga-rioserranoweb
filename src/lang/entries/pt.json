@@ -74,7 +74,7 @@
   "programs.ai.detallePrograma.tempAlt.includes.title": "Programas Incluem",
   "programs.ai.detallePrograma.tempAlt.includes.list.item1": "Acomodação em quarto selecionado.",
   "programs.ai.detallePrograma.tempAlt.includes.list.item2": "Transporte de ida e volta para Punta Arenas, Puerto Natales, e Cerro Castillo em horário estabelecido.",
-  "programs.ai.detallePrograma.tempAlt.includes.list.item3": "Transporte de ida e volta para para Calafate em horário fixo (aeroporto ou hotel central).",
+  "programs.ai.detallePrograma.tempAlt.includes.list.item3": "Transporte de ou para Calafate em horario fixo.",
   "programs.ai.detallePrograma.tempAlt.includes.list.item4": "Café da manhã, almoço e jantar (inclui sucos, águas, refrigerantes e vinho da casa por copa).",
   "programs.ai.detallePrograma.tempAlt.includes.list.item5": "Frigobar.",
   "programs.ai.detallePrograma.tempAlt.includes.list.item6": "Entrada ao Parque nacional Torres del Paine.",
@@ -95,13 +95,13 @@
 
 
   "programs.ai.detallePrograma.tempMed.titulo": "Temporada Média",
-  "programs.ai.detallePrograma.tempMed.dates": "04 set - 31 out 2020 / 01 - 30 abr 2021",
+  "programs.ai.detallePrograma.tempMed.dates": "01 out - 31 out 2020 / 01 - 30 abr 2021",
   "programs.ai.detallePrograma.tempMed.years": "2020 / 2021",
 
   "programs.ai.detallePrograma.tempMed.includes.title": "Programas Incluem",
   "programs.ai.detallePrograma.tempMed.includes.list.item1": "Acomodação em quarto selecionado.",
   "programs.ai.detallePrograma.tempMed.includes.list.item2": "Transporte  de e para Punta Arenas, Puerto Natales, e Cerro Castillo em horário estabelecido.",
-  "programs.ai.detallePrograma.tempMed.includes.list.item3": "Transporte de e para Calafate em horário fixo (aeroporto ou hotel central).",
+  "programs.ai.detallePrograma.tempMed.includes.list.item3": "Transporte de ou para Calafate em horario fixo.",
   "programs.ai.detallePrograma.tempMed.includes.list.item4": "Café da manhã, almoço e jantar (inclui sucos, águas, refrigerantes e vinho da casa a copo).",
   "programs.ai.detallePrograma.tempMed.includes.list.item5": "Frigobar.",
   "programs.ai.detallePrograma.tempMed.includes.list.item6": "Bilhetes ao parque nacional Torres del Paine.",
@@ -128,7 +128,7 @@
   "programs.ai.detallePrograma.tempFda.includes.title": "Programas Incluem",
   "programs.ai.detallePrograma.tempFda.includes.list.item1": "Acomodação em quarto selecionado.",
   "programs.ai.detallePrograma.tempFda.includes.list.item2": "Transporte  de e para Punta Arenas, Puerto Natales, e Cerro Castillo em horário estabelecido.",
-  "programs.ai.detallePrograma.tempFda.includes.list.item3": "Transporte de e para Calafate em horário fixo (aeroporto ou hotel central).",
+  "programs.ai.detallePrograma.tempFda.includes.list.item3": "Transporte de ou para Calafate em horario fixo.",
   "programs.ai.detallePrograma.tempFda.includes.list.item4": "Café da manhã, almoço e jantar (inclui sucos, águas, refrigerantes e vinho da casa a copo).",
   "programs.ai.detallePrograma.tempFda.includes.list.item5": "Frigobar.",
   "programs.ai.detallePrograma.tempFda.includes.list.item6": "Bilhetes ao parque nacional Torres del Paine.",
@@ -152,7 +152,7 @@
   "programs.ai.calendar.titulo": "Calendário de expedições",
 
   "programs.ai.calendar.temporadamedia": "Temporada média",
-  "programs.ai.calendar.meses.temporadamedia": "04 Set - 31 Out 2020 / 01 - 30 Abr 2021",
+  "programs.ai.calendar.meses.temporadamedia": "01 Out - 31 Out 2020 / 01 - 30 Abr 2021",
   "programs.ai.calendar.ano.temporadamedia": "2020 / 2021",
 
   "programs.ai.calendar.temporadaalta": "Temporada alta",

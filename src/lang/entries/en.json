@@ -75,7 +75,7 @@
   "programs.ai.detallePrograma.tempAlt.includes.title": "Programs Include",
   "programs.ai.detallePrograma.tempAlt.includes.list.item1": "Accomodation in selected room.",
   "programs.ai.detallePrograma.tempAlt.includes.list.item2": "Regular transfer to and from Punta Arenas, Puerto Natales, and Cerro Castillo at established times.",
-  "programs.ai.detallePrograma.tempAlt.includes.list.item3": "Regular transfer to and from Calafate at fixed time (airport or hotel)",
+  "programs.ai.detallePrograma.tempAlt.includes.list.item3": "Regular transfer to or from Calafate at fixed time (airport or hotel).",
   "programs.ai.detallePrograma.tempAlt.includes.list.item4": "Breakfast , lunch and dinner (includes juices, water, soft drinks and house wine by the glass).",
   "programs.ai.detallePrograma.tempAlt.includes.list.item5": "Minibar.",
   "programs.ai.detallePrograma.tempAlt.includes.list.item6": "Torres del Paine national park ticket entrance.",
@@ -96,13 +96,13 @@
 
 
   "programs.ai.detallePrograma.tempMed.titulo": "MID SEASON",
-  "programs.ai.detallePrograma.tempMed.dates": "04 sep - 31 oct 2020 / 01 - 30 apr 2021",
+  "programs.ai.detallePrograma.tempMed.dates": "01 oct - 31 oct 2020 / 01 - 30 apr 2021",
   "programs.ai.detallePrograma.tempMed.years": "2020 / 2021",
 
   "programs.ai.detallePrograma.tempMed.includes.title": "Programs Include",
   "programs.ai.detallePrograma.tempMed.includes.list.item1": "Accomodation in selected room.",
   "programs.ai.detallePrograma.tempMed.includes.list.item2": "Regular transfer to and from Punta Arenas, Puerto Natales, and Cerro Castillo at established times.",
-  "programs.ai.detallePrograma.tempMed.includes.list.item3": "Regular transfer to and from Calafate at fixed time (airport or hotel).",
+  "programs.ai.detallePrograma.tempMed.includes.list.item3": "Regular transfer to or from Calafate at fixed time (airport or hotel).",
   "programs.ai.detallePrograma.tempMed.includes.list.item4": "Breakfast, lunch and dinner (includes juices, water, soft drinks and house wine by the glass).",
   "programs.ai.detallePrograma.tempMed.includes.list.item5": "Minibar.",
   "programs.ai.detallePrograma.tempMed.includes.list.item6": "Torres del Paine national park ticket entrance.",
@@ -129,7 +129,7 @@
   "programs.ai.detallePrograma.tempFda.includes.title": "Programs Include",
   "programs.ai.detallePrograma.tempFda.includes.list.item1": "Accomodation in selected room.",
   "programs.ai.detallePrograma.tempFda.includes.list.item2": "Regular transfer to and from Punta Arenas, Puerto Natales, and Cerro Castillo at established times.",
-  "programs.ai.detallePrograma.tempFda.includes.list.item3": "Regular transfer to and from Calafate at fixed time (airport or hotel).",
+  "programs.ai.detallePrograma.tempFda.includes.list.item3": "Regular transfer to or from Calafate at fixed time (airport or hotel).",
   "programs.ai.detallePrograma.tempFda.includes.list.item4": "Breakfast, lunch and dinner (includes juices, water, soft drinks and house wine by the glass).",
   "programs.ai.detallePrograma.tempFda.includes.list.item5": "Minibar.",
   "programs.ai.detallePrograma.tempFda.includes.list.item6": "Torres del Paine national park ticket entrance.",
@@ -153,7 +153,7 @@
   "programs.ai.calendar.titulo": "Expedition schedule",
 
   "programs.ai.calendar.temporadamedia": "Middle season",
-  "programs.ai.calendar.meses.temporadamedia": "04 sep - 31 oct 2020 / 01 - 30 apr 2021",
+  "programs.ai.calendar.meses.temporadamedia": "01 oct - 31 oct 2020 / 01 - 30 apr 2021",
   "programs.ai.calendar.ano.temporadamedia": "2020 / 2021",
 
   "programs.ai.calendar.temporadaalta": "High season",

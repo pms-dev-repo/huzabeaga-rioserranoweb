@@ -120,9 +120,9 @@ function Bookingmodal({visible, onShowModal, selectedRoom}) {
   }, [visible]);
 
   useEffect(() => {
-    if(moment().valueOf() < moment("2020-12-20").valueOf()) {
-      setStartDate(moment("2020-12-20"))
-      setEndDate(moment("2020-12-20").add(1, 'day'))
+    if(moment().valueOf() < moment("2021-10-01").valueOf()) {
+      setStartDate(moment("2021-10-01"))
+      setEndDate(moment("2021-10-01").add(1, 'day'))
     }
     else {
       setStartDate(moment())
@@ -176,7 +176,7 @@ function Bookingmodal({visible, onShowModal, selectedRoom}) {
           noBorder={true}
           numberOfMonths={isMobile ? 1 : 2}
           minDate={startDate}
-          isOutsideRange={day => isInclusivelyBeforeDay(day, moment("2020-12-19"))}
+          isOutsideRange={day => isInclusivelyBeforeDay(day, moment("2021-09-30"))}
         />
       </DPContainer>
 

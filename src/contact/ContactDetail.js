@@ -254,9 +254,9 @@ export default function ContactDetail({image}) {
                   <div className="phone-number">+59 9 3372 0869</div>
                 </div>
 
-                <ButtonGhost type="button" onClick={() => setVisible(true)}>
+                {/* <ButtonGhost type="button" onClick={() => setVisible(true)}>
                   <FormattedMessage id="contact.detail.boton"/>
-                </ButtonGhost> 
+                </ButtonGhost>  */}
 
               </ContactInfo>
               
