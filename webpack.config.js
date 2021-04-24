@@ -149,6 +149,8 @@ module.exports = {
     inline: true,
     hot: true,
     port: 6012,
+  public: 'store-client-nestroia1.c9users.io' // That solved it
+},
     historyApiFallback: true
   }
 }
