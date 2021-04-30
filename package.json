@@ -2,7 +2,7 @@
   "name": "rioserrano-web",
   "version": "1.0.0",
   "description": "Sitio web corporativo Rio Serrano",
-  "main": "index.js",
+  "main": "Index.js",
   "author": "Beenary",
   "license": "MIT",
   "scripts": {
